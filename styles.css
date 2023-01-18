@@ -42,12 +42,12 @@
 	cursor: pointer;
 }
 
-    	@media screen and (max-width: 1440px) {
+/*    	@media screen and (max-width: 1440px) {
     #giant-logo {
 width: 125%;
 
     }
-    }
+    }*/
 
         	@media screen and (max-width: 1000px) {
     #giant-logo {

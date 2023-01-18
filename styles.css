@@ -534,6 +534,12 @@ html::-webkit-scrollbar-thumb {
 	outline-color: #179eff;
 }
 
+    	@media screen and (max-width: 683px) {
+    #min {
+  width: 20%;
+    }
+    }
+
 #main-text {
 	color: black;
 	font-size: 26px;
@@ -550,6 +556,13 @@ html::-webkit-scrollbar-thumb {
 	outline-color: #179eff;
 }
 
+    	@media screen and (max-width: 683px) {
+    #main-text {
+    font-size: 20px;
+    line-height: 30px;
+    }
+    }
+
 #pink-square {
 	height: 25px;
   	width: 25px;
@@ -565,3 +578,9 @@ html::-webkit-scrollbar-thumb {
 	background-color: #174cf4;
 }
 
+    	@media screen and (max-width: 683px) {
+    #pink-square {
+    left: 10px;
+    bottom: 10px;
+    }
+    }

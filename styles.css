@@ -65,6 +65,7 @@ display: none;
     height: 49.2%;
     background-color: #ff3000;
     z-index: -1;
+
 }
 
 .animated {
@@ -427,6 +428,7 @@ html::-webkit-scrollbar-thumb {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;
+
 }
 
 #title-text:hover {
@@ -446,6 +448,7 @@ html::-webkit-scrollbar-thumb {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;
+	line-height: 18px;
 }
 
 #title-text2:hover {
@@ -466,6 +469,7 @@ html::-webkit-scrollbar-thumb {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;
+	line-height: 18px;
 }
 
 #title-text3:hover {
@@ -487,6 +491,7 @@ html::-webkit-scrollbar-thumb {
 /*	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;*/
+	line-height: 18px;
 }
 
 #title-text4:hover {
@@ -508,6 +513,7 @@ html::-webkit-scrollbar-thumb {
 /*	left: 50%;
 	transform: translateX(-50%);
 	z-index: 2;*/
+	line-height: 18px;
 }
 
 #title-text5:hover {

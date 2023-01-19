@@ -79,7 +79,7 @@ display: none;
 	position: absolute;
 	background-color: #AFAFAF;
 	font-family: Helvetica;
-	font-size: 0.8em;
+	font-size: 0.81em;
 	line-height: 1.3em;
 /*	line-height: 14px;*/
 	padding: 19px;
@@ -560,6 +560,28 @@ html::-webkit-scrollbar-thumb {
 }
 
 #title-text5:hover {
+    outline: solid;
+	outline-width: 0.4px;
+	outline-color: #179eff;
+	padding: 0;
+}
+
+#title-text6 {
+	font-family:  "Apple Symbols";
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+/*	margin-bottom: 20px;
+	margin-top: 20px;*/
+	position: relative;
+/*	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;*/
+	line-height: 18px;
+}
+
+#title-text6:hover {
     outline: solid;
 	outline-width: 0.4px;
 	outline-color: #179eff;

@@ -569,7 +569,7 @@ html::-webkit-scrollbar-thumb {
 #title-text6 {
 	font-family:  "Apple Symbols";
 	color: black;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: center;
 	line-height: 20px;
 /*	margin-bottom: 20px;
@@ -579,6 +579,7 @@ html::-webkit-scrollbar-thumb {
 	transform: translateX(-50%);
 	z-index: 2;*/
 	line-height: 18px;
+	color: gray;
 }
 
 #title-text6:hover {

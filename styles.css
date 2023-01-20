@@ -325,24 +325,24 @@ html::-webkit-scrollbar-thumb {
 #small-logo {
 	padding: 15px;
 	top: 138px;
-	left: 17px;
+	left: 35px;
 	position: fixed;
-	width: 380px;
+	width: 300px;
 	z-index: 900;
 }
 
 	@media screen and (max-width: 1440px) {
     #small-logo {
-    top:  28px;	
-    width:  350px;
+    top:  50px;	
+    width:  300px;
     }
     }
 
     	@media screen and (max-width: 683px) {
     #small-logo {
-    top: 40px;	
+    top: 50px;	
     left: 50%;
-    margin-left: -195px; /* 800px/2 = 400px */
+    margin-left: -166px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }
@@ -350,23 +350,23 @@ html::-webkit-scrollbar-thumb {
 #small-logo2 {
 	padding: 15px;
 	top: 93px;
-	left: 10px;
+	left: 30px;
 	position: fixed;
-	width: 380px;
+	width: 305px;
 	z-index: 900;
 }
 
 	@media screen and (max-width: 1440px) {
     #small-logo2 {
-    top:  15px;	
-    width:  350px;
+    top:  20px;	
+    width:  305px;
     }
     }
     	@media screen and (max-width: 683px) {
     #small-logo2 {
-    top: 15px;	
+    top: 20px;	
     left: 50%;
-    margin-left: -195px; /* 800px/2 = 400px */
+    margin-left: -166px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }

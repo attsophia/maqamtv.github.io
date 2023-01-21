@@ -359,14 +359,14 @@ html::-webkit-scrollbar-thumb {
 	@media screen and (max-width: 1440px) {
     #small-logo2 {
     top:  20px;	
-    width:  305px;
+    width:  250px;
     }
     }
     	@media screen and (max-width: 683px) {
     #small-logo2 {
     top: 20px;	
     left: 50%;
-    margin-left: -166px; /* 800px/2 = 400px */
+    margin-left: -140px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }

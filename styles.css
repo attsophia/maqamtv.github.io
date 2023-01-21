@@ -57,6 +57,33 @@ display: none;
     }
 
 
+    #giant-logo2 {
+	z-index: 100000;
+	position:fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	display:  none;
+}
+
+/*    	@media screen and (max-width: 1440px) {
+    #giant-logo {
+width: 125%;
+
+    }
+    }*/
+
+        	@media screen and (max-width: 800px) {
+    #giant-logo2 {
+display: block;
+
+    }
+    }
+
+   
+
+
 #color-top {
     position: fixed;
     top: 0px;
@@ -142,13 +169,13 @@ display: none;
             animation-name: fadeOut;
          }
 
-
+/*
     @media screen and (max-width: 800px) {
     .animated {
 display: none;
 
     }
-    }
+    }*/
 
 
 #logo {
@@ -321,6 +348,27 @@ html::-webkit-scrollbar-thumb {
     background: #A741AA;
     border-radius: 0px;
   }
+
+         	@media screen and (max-width: 800px) {
+    html::-webkit-scrollbar {
+display: none;
+
+    }
+    }
+
+             	@media screen and (max-width: 800px) {
+    html::-webkit-scrollbar-track {
+display: none;
+
+    }
+    }
+
+                 	@media screen and (max-width: 800px) {
+    html::-webkit-scrollbar-thumb {
+display: none;
+
+    }
+    }
 
 #small-logo {
 	padding: 15px;

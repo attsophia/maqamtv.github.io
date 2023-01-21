@@ -390,10 +390,16 @@ display: none;
     #small-logo {
     top: 50px;	
     left: 50%;
+    display: none;
     margin-left: -166px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }
+
+
+
+
+
 
 #small-logo2 {
 	padding: 15px;

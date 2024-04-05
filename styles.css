@@ -104,7 +104,7 @@ display: block;
 	right: 2em;
 	z-index: 900;
 	position: absolute;
-	background-color: #AFAFAF;
+	background-color: #b8bcb7;
 	padding: 25px;
 
 	font-family: "arial";
@@ -149,7 +149,7 @@ display: block;
 	cursor: pointer;
 	position: fixed;
 	z-index: 9999;
-	background-color: #CDD1CB;
+	background-color: #c6cac5;
 	top: 0px;
     left: 0px;
     width: 100%;
@@ -285,7 +285,7 @@ footer {
 
 .introduction {
 
-	background-color: #CDD1CB;
+	background-color: #c6cac5;
 	margin: 0;
 	padding: 0;
 
@@ -354,21 +354,21 @@ html::-webkit-scrollbar-thumb {
     border-radius: 0px;
   }
 
-         	@media screen and (max-width: 800px) {
+         	@media screen and (max-width: 830px) {
     html::-webkit-scrollbar {
 display: none;
 
     }
     }
 
-             	@media screen and (max-width: 800px) {
+             	@media screen and (max-width: 830px) {
     html::-webkit-scrollbar-track {
 display: none;
 
     }
     }
 
-                 	@media screen and (max-width: 800px) {
+                 	@media screen and (max-width: 830px) {
     html::-webkit-scrollbar-thumb {
 display: none;
 
@@ -391,12 +391,13 @@ display: none;
     }
     }
 
-    @media screen and (max-width: 683px) {
+    @media screen and (max-width: 830px) {
     #small-logo {
+    width: 210px;
     top: 50px;	
     left: 50%;
     display: none;
-    margin-left: -166px; /* 800px/2 = 400px */
+    margin-left: -111px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }
@@ -422,11 +423,13 @@ display: none;
     }
     }
     
-    @media screen and (max-width: 683px) {
+    @media screen and (max-width: 830px) {
     #small-logo2 {
+    width: 180px;
     top: 20px;	
     left: 50%;
-    margin-left: -140px; /* 800px/2 = 400px */
+    display: none;
+    margin-left: -110px; /* 800px/2 = 400px */
  /*   padding-bottom: 80px;*/
     }
     }
@@ -457,16 +460,17 @@ display: none;
     @media screen and (max-width: 1225px) {
     .menu {
 	left: 40px;
-	top: 39%;
+	top: 313px;
+		z-index: 0;
+
     }
     }
 
     @media screen and (max-width: 830px) {
     .menu {
-    top: 305px;
+    top: 240px;
 	position: relative;
-	left: 13.5%;
-	z-index: 0;
+	left: 14%;
 
     }
     }
@@ -510,7 +514,7 @@ display: none;
     @media screen and (max-width: 830px) {
     .container {
 	width: 70%;
-		margin-top: 60px;
+	margin-top: 10px;
 
     }
     }
@@ -688,3 +692,60 @@ display: none;
 	text-rendering: optimizeLegibility;
  	color: gray;
  }
+
+
+.transmission {
+	background-color: #c6cac5;
+	margin: 0;
+	padding: 0;
+
+	}
+
+.transmission-text {
+	font-family: "arial";
+	color: black;
+	font-size: 13px;
+	line-height: 1.58em;
+	font-weight: 400;
+	letter-spacing: 1.03333px;
+	text-rendering: optimizeLegibility;
+}
+
+#announce {
+	z-index: 1;
+	margin-bottom: 50px;
+	padding: 5px;
+
+  text-align: center;
+  border: 1.2px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.cycles {
+	background-color: #c6cac5;
+	margin: 0;
+	padding: 0;
+
+	}
+
+.cycles-container {
+
+	left: 13%;
+    top: 92px;
+    width: 63%;
+	position: relative;
+}	
+
+.cycles-text {
+	font-family: "arial";
+	color: black;
+	font-size: 13px;
+	line-height: 1.58em;
+	font-weight: 400;
+	letter-spacing: 1.03333px;
+	text-rendering: optimizeLegibility;
+}

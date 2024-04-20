@@ -448,8 +448,8 @@ display: none;
 	font-weight: 400;
 	letter-spacing: 1.03333px;
 	text-rendering: optimizeLegibility;
-	z-index: 10000;
- }   
+/*	z-index: 10000;
+*/ }   
 
 /* .menu:hover {
     outline: solid;

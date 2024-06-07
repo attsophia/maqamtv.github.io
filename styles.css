@@ -21,6 +21,8 @@
     z-index: 300;
 }
 
+
+
 /*#circularcursor {
   cursor: pointer;
   background-color: transparent;
@@ -33,6 +35,9 @@
   position: absolute;
   z-index: 3000;
 }*/
+
+
+
 
 #giant-logo {
 	z-index: 100000;
@@ -84,6 +89,7 @@ display: block;
    
 
 
+
 #color-top {
     position: fixed;
     top: 0px;
@@ -114,6 +120,10 @@ display: block;
 	font-weight: 400;
 	letter-spacing: 1.03333px;
 	text-rendering: optimizeLegibility;
+
+	-ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 
 }
 
@@ -438,7 +448,7 @@ display: none;
  .menu {
  	width: 170px;
  	padding: 5px;
- 	top: 105px ;
+ 	top: 100px ;
  	right: 200px;
  	position: absolute;
  	font-family: arial;
@@ -448,6 +458,8 @@ display: none;
 	font-weight: 400;
 	letter-spacing: 1.03333px;
 	text-rendering: optimizeLegibility;
+	float: left;
+	margin: 5px;
 /*	z-index: 10000;
 */ }   
 
@@ -634,6 +646,9 @@ display: none;
 	z-index: 1;
 	margin-bottom: 50px;
 	padding: 5px;
+	    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #main-text:hover {
@@ -741,6 +756,24 @@ display: none;
 }	
 
 .cycles-text {
+	font-family: "arial";
+	color: black;
+	font-size: 13px;
+	line-height: 1.58em;
+	font-weight: 400;
+	letter-spacing: 1.03333px;
+	text-rendering: optimizeLegibility;
+}
+
+.transmission-container {
+
+	left: 13%;
+    top: 92px;
+    width: 63%;
+	position: relative;
+}	
+
+.transmission-text {
 	font-family: "arial";
 	color: black;
 	font-size: 13px;

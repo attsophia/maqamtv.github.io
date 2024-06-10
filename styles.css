@@ -754,6 +754,13 @@ display: none;
 	margin-right: 20px;
 }	
 
+#musiqa {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin: 0;
+	align: left;
+}
+
 #announce {
 	z-index: 1;
 /*	margin-bottom: 50px;

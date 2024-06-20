@@ -775,20 +775,32 @@ display: none;
     }
 
 #musiqa {
-	padding-top: 35px;
-	padding-bottom: 35px;
-	margin: 0;
-	align: left;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-        @media screen and (max-width: 782px) {
-    #musiqa {
+#musiqa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*        @media screen and (max-width: 782px) {
+    .musiqa iframe  {
 	padding:  0;
+	margin:  0;
 	position: absolute;
-	margin-top:  10px;
+  width: 100%;
+  height: 100%;
 
     }
-    }
+    }*/
 
 
     #stone2 {
@@ -854,6 +866,16 @@ display: none;
 	margin-right: 20px;
 }	
 
+    @media screen and (max-width: 993px) {
+    .cycles-container {
+	width: 80%;
+	position: absolute;
+	left: 50px;
+	top: 110px;
+
+    }
+    }
+
 .cycles-text {
 	font-family: "arial";
 	color: black;
@@ -869,3 +891,10 @@ blockquote {
     padding: 15px;
 }
 
+
+    @media screen and (max-width: 993px) {
+    blockquote {
+	width: 80%;
+
+    }
+    }

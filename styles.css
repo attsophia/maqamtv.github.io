@@ -101,13 +101,17 @@ display: block;
 
 }
 
+.chat {
+    background: none;
+    float: right;
+	margin-right: 55px;
+	margin-top: 800px;
+	padding: 35px;
 
+}
 
 .donation-box {
-	width: 15%;
-	height: auto;
-	top: 29em;
-	right: 2em;
+
 	z-index: 900;
 	position: absolute;
 	background-color: #b8bcb7;
@@ -128,31 +132,21 @@ display: block;
 }
 
 
+
 #donate {
 	border-bottom: 1px solid;
 	padding-bottom: 0.15em;
 	display: inline-block;
-}
-
-	@media screen and (max-width: 1000px) {
-    .donation-box {
-	width: auto;
+    width: auto;
 	bottom: 0;
 	position: relative;
 	right: 0;
 	margin: 0;
-	padding: 35px;
+
 
     }
 
-    }
 
-    	@media screen and (max-width: 1000px) {
-    .donation-box p {
-    	padding:  20px;
-    }
-
-    }
 
 
 .animated {

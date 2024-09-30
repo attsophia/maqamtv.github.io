@@ -21,6 +21,11 @@
     z-index: 300;
 }
 
+a:visited { 
+ text-decoration: none; 
+ color: blue;
+}
+
 
 
 /*#circularcursor {

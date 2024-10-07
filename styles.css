@@ -898,15 +898,15 @@ blockquote {
     }
     }
 
-  #archi-mural {
+#archi-mural {
   	width: 40px;
   	float: right;
   	right: 20px;
-  }
+  	cursor: zoom-in;
+}
 
- #archi-mural2 {
+#archi-mural2 {
   display: none;
-
 }
 
 #archi-mural:hover + #archi-mural2 {

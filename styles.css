@@ -897,3 +897,23 @@ blockquote {
 
     }
     }
+
+  #archi-mural {
+  	width: 40px;
+  	float: right;
+  	right: 20px;
+  }
+
+ #archi-mural2 {
+  display: none;
+
+}
+
+#archi-mural:hover + #archi-mural2 {
+  display: block;
+  width: 800px;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+
